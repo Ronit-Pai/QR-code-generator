@@ -5,8 +5,6 @@ A basic QR code generator using javascript
 
 ---
 
----
-
 ## Extra
 I have created the same project using python , to use the javascript a link will be available in the description box.
 
