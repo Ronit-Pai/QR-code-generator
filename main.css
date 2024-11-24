@@ -6,107 +6,107 @@
 }
 
 html {
-  font-size: 16px; /* base font size for rem units */
+  font-size: 16px; 
 }
 
-/* Body Styling */
+
 body {
-  font-family: 'Arial', sans-serif; /* clean, modern font */
-  background-color: #f4f7fb; /* light background for a clean look */
-  color: #333; /* dark text for readability */
+  font-family: 'Arial', sans-serif; 
+  background-color: #f4f7fb; 
+  color: #333; 
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* full viewport height */
+  min-height: 100vh; 
   margin: 0;
   padding: 20px;
 }
 
-/* Container Styling */
+
 .container {
   background: #fff;
-  border-radius: 12px; /* round corners for a soft look */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* soft shadow for depth */
+  border-radius: 12px; 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); 
   width: 100%;
-  max-width: 480px; /* maximum width for larger screens */
+  max-width: 480px; 
   padding: 30px;
   text-align: center;
   box-sizing: border-box;
 }
 
 h1 {
-  font-size: 2.5rem; /* larger heading for visibility */
-  margin-bottom: 1.5rem; /* space below the heading */
-  color: #4CAF50; /* green color for the heading */
+  font-size: 2.5rem; 
+  margin-bottom: 1.5rem; 
+  color: #00ffff; 
   font-weight: bold;
 }
 
-/* Input Field Styling */
+
 input {
   width: 100%;
   padding: 15px;
-  margin-bottom: 1.5rem; /* space below the input */
-  border: 2px solid #ddd; /* light border color */
-  border-radius: 8px; /* rounded corners */
-  font-size: 1rem; /* comfortable text size */
-  outline: none; /* remove the default focus outline */
-  transition: border-color 0.3s ease-in-out; /* smooth border color transition */
+  margin-bottom: 1.5rem; 
+  border: 2px solid #ddd; 
+  border-radius: 8px; 
+  font-size: 1rem; 
+  outline: none; 
+  transition: border-color 0.3s ease-in-out; 
 }
 
-/* Focus effect on input */
+
 input:focus {
-  border-color: #4CAF50; /* green border on focus */
-  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* subtle shadow to indicate focus */
+  border-color: #00ffff; 
+  box-shadow: 0 0 5px rgba(4, 211, 222, 0.5); 
 }
 
-/* Button Styling */
+
 button {
   padding: 14px 24px;
-  background-color: #4CAF50; /* green button */
+  background-color: #00ffff; 
   color: white;
   border: none;
   border-radius: 8px;
-  font-size: 1.1rem; /* slightly larger font size */
+  font-size: 1.1rem; 
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease-in-out; /* smooth transitions */
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out; 
 }
 
 button:hover {
-  background-color: #45a049; /* darker green on hover */
+  background-color: #00ffff; 
 }
 
 button:active {
-  transform: scale(0.98); /* slightly reduce button size on click */
+  transform: scale(0.98); 
 }
 
-/* QR Code Container */
+
 #qrcode {
   margin-top: 2rem;
   padding: 10px;
-  border: 1px solid #ddd; /* light border around the QR code */
-  border-radius: 8px; /* rounded corners */
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
   display: inline-block;
   background: #fff;
 }
 
-/* Responsive Design */
+
 @media (max-width: 600px) {
   .container {
     padding: 20px;
   }
 
   h1 {
-    font-size: 2rem; /* smaller heading on small screens */
+    font-size: 2rem; 
   }
 
   input {
-    padding: 12px; /* smaller input field on smaller screens */
-    font-size: 0.9rem; /* slightly smaller font size */
+    padding: 12px; 
+    font-size: 0.9rem; 
   }
 
   button {
-    padding: 12px 20px; /* slightly smaller button */
-    font-size: 1rem; /* slightly smaller font size */
+    padding: 12px 20px; 
+    font-size: 1rem; 
   }
 }
 
