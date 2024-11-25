@@ -1,12 +1,12 @@
 import qrcode
-print("Enter the url:")
+print("Enter the url/text :")
 your_qr = input(" ")
 
 qr = qrcode.QRCode(
     version=1,  
     error_correction=qrcode.constants.ERROR_CORRECT_L,  
     box_size=20,  
-    border=2, 
+    border=1, 
 )
 
 
