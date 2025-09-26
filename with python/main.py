@@ -17,3 +17,4 @@ qr.make(fit=True)
 img = qr.make_image(fill='black', back_color='white')
 
 img.show()
+#img.save("my_qr.png") #to save the qr code as an image file
